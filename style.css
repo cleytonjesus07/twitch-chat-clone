@@ -170,16 +170,14 @@ html{
     align-items: center;
 }
 
-@media screen and (max-width:700px) {
+@media (max-width:700px) {
     .nickname-container{
         flex-direction: column;
     }
-
-    
 }
 
 .nickname-container > span{
-    margin: 2px 0;
+    margin: 5px;
     font-size: .8rem;
 }
 
