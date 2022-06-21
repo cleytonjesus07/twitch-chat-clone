@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Chat like twitch</title>
+</head>
+<body>
+    <div class="title">
+        <img src="./icon.png" alt="logo">
+        <h1 id="title">Twitch chat</h1>
+    </div>
+    <div class="nickname-container">
+        <span>Não se esqueça de inserir um nickname. ;D</span>
+        <input type="text" id="nickname-input" class="chat-input center" placeholder="Insira um nickname" />
+    </div>
+    <div class="chat-container">
+        <div class="chat">
+            <div class="warning" id="warning">
+                <span>Digitando
+                    <span class="points">
+                        <span>.</span>
+                        <span>.</span>
+                        <span>.</span>
+                    </span>
+                </span>
+            </div>
+            <div class="chat-items" id="chatItems">
+                <div class="baloon animationToLeft">
+                    <div class="name"><img src="badges/nvl1.png"/>cleyton_jesus07</div>
+                    <div class="message">
+                        Testando 1 2 3...
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+        <form class="form-chat" id="form-chat">
+            <input class="chat-input" id="inputMessage" placeholder="Envie uma mensagem... :D"/>
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    
+</body>
+</html>
